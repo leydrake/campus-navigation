@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grant Permission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/cam-permission.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="camera-area">
+      <div class="camera-icon">
+        <!-- Disabled camera SVG icon -->
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="120" height="120" fill="none"/>
+          <g stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="30" y="44" width="60" height="40" rx="8"/>
+            <circle cx="60" cy="64" r="12"/>
+            <path d="M45 44l7-12h16l7 12"/>
+            <line x1="30" y1="30" x2="90" y2="90" stroke="#fff" stroke-width="5"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="bottom-card">
+      <button class="grant-btn">
+        <!-- Lock SVG icon -->
+        <svg viewBox="0 0 24 24">
+          <rect x="5" y="11" width="14" height="8" rx="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+        Grant Permission
+      </button>
+      <div class="permission-msg">Please grant permission to proceed.</div>
+    </div>
+  </div>
+</body>
+</html>

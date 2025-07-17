@@ -66,10 +66,18 @@
         <p><em>Would you like to include GDPR or COPPA compliance, or add sections for in-app purchases, third-party services, or user-generated content?</em></p>
       </div>
       <div class="tos-footer">
-        <button class="agree-btn">Agree and Proceed</button>
+        <button onclick="goToSelect()"  class="agree-btn">Agree and Proceed</button>
       </div>
     </div>
    </div>
-  
+
+   <script>
+    function backToIndex() {
+      window.location.href = 'index.html';
+    }
+    function goToSelect() {
+      window.location.href = 'select-campus.html';
+    }
+  </script>
 </body>
 </html>
